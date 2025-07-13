@@ -67,11 +67,8 @@ vertical_position = (vertical_velocity * time_array) - (1/2)*g*(time_array)**2
 print("Also, here are the x and y points for the trajectory over time:", horizontal_position, vertical_position)
 
 print("Here is the max height your object reached:", max(vertical_position))
-#🖼 4. Plot the Results
-#Use matplotlib to plot the x and y arrays
-#Label the axes: “Distance (m)” and “Height (m)”
-#Add a title like “Projectile Motion Simulation”
-#Optional: Add grid or markers
+#4. Plot the Results
+#Use matplotlib to plot the x and y arrays”
 
 plt.plot(horizontal_position, vertical_position)
 plt.xlabel("Distance in meters")
@@ -91,8 +88,5 @@ plt.show()
 #Print horizontal range (use last value of x)
 
 #6. Optional Finishing Touches
-#Save the plot as an image file
 
 #Add error checking to make sure the user enters valid numbers
-
-#Turn the code into reusable functions
